@@ -1,0 +1,27 @@
+{
+  "name": "my-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpileOnly ./app.ts",
+    "start:prod": "npm run build && node dist/app.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@kites/common": "^1.1.1",
+    "@kites/core": "^1.1.1",
+    "@kites/express": "^1.1.1",
+    "@kites/rest": "^1.1.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
