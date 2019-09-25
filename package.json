@@ -18,10 +18,10 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "@kites/common": "^1.1.1",
-    "@kites/core": "^1.1.1",
-    "@kites/express": "^1.1.1",
-    "@kites/rest": "^1.1.1",
+    "@kites/common": "^1.1.8",
+    "@kites/core": "^1.1.8",
+    "@kites/express": "^1.1.8",
+    "@kites/rest": "^1.1.8",
     "reflect-metadata": "^0.1.13"
   }
 }
